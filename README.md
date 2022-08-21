@@ -10,7 +10,7 @@
 
 ###
 
-<h2 align="center">🔗 Link e QR Code</h2>
+<h2 align="center">🔗</h2>
 
 ###
 
