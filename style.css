@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(72deg, #3debb0 1%, #8956f3 99%);
+  font-family: 'Aboreto', sans-serif;
+}
+
+.titulo {
+  font-size: 30px;
+  text-align: center;
+  color: lightcyan;
+  padding: 20px;
+  font-family: 'Aboreto', sans-serif;
+}
+
+.content {
+  height: 520px;
+  width: 935px;
+  border-radius: 20px;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 40px #000000bf;
+}
+
+.navigation {
+  position: absolute;
+  bottom: 20px;
+  left: 50px;
+  transform: translate(50%);
+  display: flex;
+}
+
+.bar {
+  width: 70px;
+  height: 17px;
+  border: 2px solid #fff;
+  margin: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.bar:hover {
+  background-color: #fff;
+}
+
+input {
+  display: none;
+}
+
+.slides {
+  display: flex;
+  width: 500%;
+  height: 100%;
+}
+
+.slide {
+  width: 20%;
+  transition: 0.6s;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+#slide1:checked ~ .s1 {
+  margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+  margin-left: -20%;
+}
+
+#slide3:checked ~ .s1 {
+  margin-left: -40%;
+}
+
+#slide4:checked ~ .s1 {
+  margin-left: -60%;
+}
+
+#slide5:checked ~ .s1 {
+  margin-left: -80%;
+}
+
+@media only screen and (max-width: 950px) {
+  .card-login {
+    width: 85%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .main-login {
+    flex-direction: column;
+  }
+  .left-login > h1 {
+    display: none;
+  }
+
+  .left-login {
+    width: 100%;
+    height: auto;
+  }
+
+  .right-login {
+    width: 100%;
+    height: auto;
+  }
+
+  .left-login-image {
+    width: 50vh;
+  }
+
+  .card-login {
+    width: 90%;
+  }
+}
