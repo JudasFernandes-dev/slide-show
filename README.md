@@ -1,4 +1,4 @@
-<h1 align="center">Projeto de Cardápio com QRcode</h1>
+<h1 align="center">Projeto de um Slide Show</h1>
 
 ###
 
@@ -6,7 +6,7 @@
 
 ###
 
-<p align="center">Esse projeto foi apresentado na Maratona Explorer 3.0 realizada pela Rocketseat, seu objetivo e aprimorar as habilidades técnicas em HTML5 e CSS3.</p>
+<p align="center">Esse foi um projeto para poder aprimorar  e desenvolver as habilidades técnicas em HTML5 e CSS3.</p>
 
 ###
 
@@ -14,13 +14,7 @@
 
 ###
 
-<p align="center">Link para acessar o projeto: https://rocketcoffer.netlify.app/<br><br>QR Code:</p>
-
-###
-
-<div align="center">
-  <img height="200" src="https://iili.io/UseSol.png" alt="frame" border="0"/>
-</div>
+<p align="center">Link para acessar o projeto: https://sliideshow.netlify.app//<br><br></p>
 
 ###
 
@@ -29,8 +23,7 @@
 ###
 
 <div align="center">
-  <img height="600" src="https://iili.io/UsePSe.jpg" alt="Sem título" border="0">
-</div>
+  <a href="https://freeimage.host/br"><img src="https://iili.io/r92K0J.gif" alt="r92K0J.gif" border="0"></a>
 
 ###
 
